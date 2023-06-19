@@ -7,6 +7,19 @@ body {
     font-family: sans-serif;
     background-color: #f5f6f7;
 }
+
+.skeleton {
+    animation: skeleton-loading .1s linear infinite alternate;
+}
+@keyframes skeleton-loading {
+    0%{
+        background-color: hsl(200, 20%, 70%);
+    }
+    100%{
+        background-color: hsl(200, 20%, 95%);
+    }
+}
+
 .gallery {
     content-visibility: auto;
 }
@@ -38,7 +51,7 @@ body {
     padding: 20px 10px;
     max-width: 1400px;
     margin: 0 auto;
-    border: 10px double rgb(2, 91, 76);
+    border: 10px double rgb(9, 49, 101);
     gap: 16px;
 }
 
