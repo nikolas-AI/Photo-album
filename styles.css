@@ -30,25 +30,33 @@ body {
     height: 300px;
     object-fit:cover;
     border-radius: 10px;
-    transition: wiggle .1s;
 }
 @keyframes wiggle {
     0%{
         transform: rotate(0deg);
     }
-    50%{
+    15%{
+        transform: rotate(1deg);
+    }
+    30%{
+        transform: rotate(0deg);
+    }
+    45%{
+        transform: rotate(1deg);
+    }
+    60%{
+        transform: rotate(0deg);
+    }
+    75%{
         transform: rotate(1deg);
     }
     100%{
-        transform: rotate(-2deg);
+        transform: rotate(0deg);
     }
-    
 }
 
 .gallery img:hover {
-    animation: wiggle .1s;
-    /* transform: rotate(5deg); */
-    width: 100%;
+    animation: wiggle .5s;
 }
 
 #logo {
