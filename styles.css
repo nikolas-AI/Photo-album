@@ -71,7 +71,7 @@ body {
     padding: 10px;
     background-color: #0a0a23;
     color: #fff;
-    border-bottom: 10px solid #fdb347;
+    border-bottom: 10px solid #fe9901;
     margin-bottom: 20px;
     display: flex;
 }
@@ -89,7 +89,8 @@ body {
     padding: 20px 10px;
     max-width: 1400px;
     margin: 0 auto;
-    border: 10px double rgb(9, 49, 101);
+    border: 10px double rgb(8, 21, 123);
+    border-radius: 10px;
     gap: 16px;
 }
 
