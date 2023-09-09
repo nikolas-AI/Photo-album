@@ -111,6 +111,7 @@ body {
     background: rgb(0, 0, 0);
     transition: opacity .5s ease-in-out;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 .content {
